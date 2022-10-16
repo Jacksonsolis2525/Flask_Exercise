@@ -1,4 +1,9 @@
 {% block content %}
 <h1>Home</h1>
-
+<h2>Enter an intger</h2>
+<form action='/calculate' method='POST'>
+    <label for="integer">Enter Number:</label>
+    <input type="int" id="Integer" name="number" size = "45"><br><br>
+    <button type="submit" id = button name="submit"> Submit:</button>
+</form>
 {% endblock %}
